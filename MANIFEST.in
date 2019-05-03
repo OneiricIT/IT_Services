@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include australian_accounts *.css
+recursive-include australian_accounts *.csv
+recursive-include australian_accounts *.html
+recursive-include australian_accounts *.ico
+recursive-include australian_accounts *.js
+recursive-include australian_accounts *.json
+recursive-include australian_accounts *.md
+recursive-include australian_accounts *.png
+recursive-include australian_accounts *.py
+recursive-include australian_accounts *.svg
+recursive-include australian_accounts *.txt
+recursive-exclude australian_accounts *.pyc

@@ -1,0 +1,93 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "List Filter",
+  "filter_name": "Completed",
+  "filters": "[[\"IT Ticket\",\"status\",\"in\",[\"Completed\"],false]]",
+  "for_user": "",
+  "modified": "2019-04-27 21:42:28.903062",
+  "name": "b5e2a2d692",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "reference_doctype": "IT Ticket"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "List Filter",
+  "filter_name": "Scheduled",
+  "filters": "[[\"IT Ticket\",\"status\",\"not in\",[\"Completed\",\"Cancelled\"],false],[\"IT Ticket\",\"status\",\"in\",[\"Scheduled\"],false]]",
+  "for_user": "",
+  "modified": "2019-04-27 21:43:33.534533",
+  "name": "1eca4708ae",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "reference_doctype": "IT Ticket"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "List Filter",
+  "filter_name": "Hold",
+  "filters": "[[\"IT Ticket\",\"status\",\"not in\",[\"Completed\",\"Cancelled\"],false],[\"IT Ticket\",\"status\",\"in\",[\"Hold\"],false]]",
+  "for_user": "",
+  "modified": "2019-04-27 21:43:46.709568",
+  "name": "1f63a97a37",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "reference_doctype": "IT Ticket"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "List Filter",
+  "filter_name": "Pending",
+  "filters": "[[\"IT Ticket\",\"status\",\"not in\",[\"Completed\",\"Cancelled\"],false],[\"IT Ticket\",\"status\",\"in\",[\"Pending\"],false]]",
+  "for_user": "",
+  "modified": "2019-04-27 21:44:00.699518",
+  "name": "553ecce2ba",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "reference_doctype": "IT Ticket"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "List Filter",
+  "filter_name": "Internal",
+  "filters": "[[\"IT Ticket\",\"status\",\"not in\",[\"Completed\",\"Cancelled\"],false],[\"IT Ticket\",\"status\",\"in\",[\"Internal\"],false]]",
+  "for_user": "",
+  "modified": "2019-04-27 21:44:38.831687",
+  "name": "503e553fd3",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "reference_doctype": "IT Ticket"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "List Filter",
+  "filter_name": "Default Filter",
+  "filters": "[[\"IT Ticket\",\"status\",\"not in\",[\"Completed\",\"Cancelled\"],false]]",
+  "for_user": "",
+  "modified": "2019-04-27 21:44:59.646494",
+  "name": "c34314eb0a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "reference_doctype": "IT Ticket"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "List Filter",
+  "filter_name": "New",
+  "filters": "[[\"IT Ticket\",\"status\",\"not in\",[\"Completed\",\"Cancelled\"],false],[\"IT Ticket\",\"status\",\"in\",[\"New\"],false]]",
+  "for_user": "",
+  "modified": "2019-04-27 21:44:52.646494",
+  "name": "c35114eb0a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "reference_doctype": "IT Ticket"
+ }
+]

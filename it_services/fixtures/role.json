@@ -1,0 +1,46 @@
+[
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2019-02-21 16:30:41.355556", 
+  "name": "IT Services User", 
+  "restrict_to_domain": "IT Services", 
+  "role_name": "IT Services User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2019-02-21 16:31:04.599714", 
+  "name": "IT Services Accounts", 
+  "restrict_to_domain": "IT Services", 
+  "role_name": "IT Services Accounts", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2019-02-21 16:31:52.692577", 
+  "name": "IT Services Manager", 
+  "restrict_to_domain": "IT Services", 
+  "role_name": "IT Services Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2019-02-21 16:31:52.692577", 
+  "name": "IT Services Admin", 
+  "restrict_to_domain": "IT Services", 
+  "role_name": "IT Services Admin", 
+  "two_factor_auth": 0
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2018-10-29 13:52:51.893996", 
+  "name": "Approve", 
+  "workflow_action_name": "Approve"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2018-10-29 13:52:51.900074", 
+  "name": "Reject", 
+  "workflow_action_name": "Reject"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2018-10-29 13:52:51.905641", 
+  "name": "Review", 
+  "workflow_action_name": "Review"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2018-10-30 21:58:42.651646", 
+  "name": "End Contract", 
+  "workflow_action_name": "End Contract"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2018-10-31 11:50:30.178769", 
+  "name": "Cancel", 
+  "workflow_action_name": "Cancel"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2019-03-04 19:42:44.576718", 
+  "name": "Create Draft Invoices", 
+  "workflow_action_name": "Create Draft Invoices"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2019-03-05 12:44:55.362916", 
+  "name": "Submit Ticket", 
+  "workflow_action_name": "Submit Ticket"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2019-03-19 19:43:38.280341", 
+  "name": "Set to Pending", 
+  "workflow_action_name": "Set to Pending"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2019-03-19 19:50:55.020099", 
+  "name": "Set to Hold", 
+  "workflow_action_name": "Set to Hold"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow Action Master", 
+  "modified": "2019-03-19 19:51:28.468155", 
+  "name": "Set to Scheduled", 
+  "workflow_action_name": "Set to Scheduled"
+ }
+]

@@ -1,0 +1,354 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow", 
+  "document_type": "IT Invoice Processing", 
+  "is_active": 1, 
+  "modified": "2019-03-04 19:43:47.254979", 
+  "name": "IT Invoice Processing Workflow", 
+  "override_status": 0, 
+  "send_email_alert": 0, 
+  "states": [
+   {
+    "allow_edit": "IT Services Accounts", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Draft", 
+    "update_field": "workflow_state", 
+    "update_value": "Draft"
+   }, 
+   {
+    "allow_edit": "IT Services Admin", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Draft", 
+    "update_field": "workflow_state", 
+    "update_value": "Draft"
+   }, 
+   {
+    "allow_edit": "IT Services Accounts", 
+    "doc_status": "1", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Draft Invoices Created", 
+    "update_field": "workflow_state", 
+    "update_value": "Draft Invoices Created"
+   }, 
+   {
+    "allow_edit": "IT Services Accounts", 
+    "doc_status": "1", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Invoices Sent", 
+    "update_field": "workflow_state", 
+    "update_value": "Invoices Sent"
+   }, 
+   {
+    "allow_edit": "IT Services Accounts", 
+    "doc_status": "2", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Cancelled", 
+    "update_field": "workflow_state", 
+    "update_value": "Cancelled"
+   }
+  ], 
+  "transitions": [
+   {
+    "action": "Create Draft Invoices", 
+    "allow_self_approval": 1, 
+    "allowed": "IT Services Accounts", 
+    "condition": null, 
+    "next_state": "Draft Invoices Created", 
+    "state": "Draft"
+   },
+   {
+    "action": "Cancel", 
+    "allow_self_approval": 1, 
+    "allowed": "IT Services Accounts", 
+    "condition": null, 
+    "next_state": "Cancelled", 
+    "state": "Draft Invoices Created"
+   }
+  ], 
+  "workflow_name": "IT Invoice Processing Workflow", 
+  "workflow_state_field": "workflow_state"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow", 
+  "document_type": "IT Contract", 
+  "is_active": 1, 
+  "modified": "2019-02-25 12:24:01.322401", 
+  "name": "IT Contract Workflow", 
+  "override_status": 0, 
+  "send_email_alert": 0, 
+  "states": [
+   {
+    "allow_edit": "IT Services Admin", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Pending", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "IT Services Admin", 
+    "doc_status": "1", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Completed", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "IT Services Accounts", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Pending", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "IT Services Accounts", 
+    "doc_status": "1", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Completed", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "IT Services Admin", 
+    "doc_status": "2", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Cancelled", 
+    "update_field": "workflow_state", 
+    "update_value": "Cancelled"
+   }
+  ], 
+  "transitions": [
+   {
+    "action": "End Contract", 
+    "allow_self_approval": 1, 
+    "allowed": "IT Services Admin", 
+    "condition": null, 
+    "next_state": "Completed", 
+    "state": "Pending"
+   }, 
+   {
+    "action": "Cancel", 
+    "allow_self_approval": 1, 
+    "allowed": "IT Services Admin", 
+    "condition": null, 
+    "next_state": "Cancelled", 
+    "state": "Completed"
+   }, 
+   {
+    "action": "End Contract", 
+    "allow_self_approval": 1, 
+    "allowed": "IT Services Accounts", 
+    "condition": null, 
+    "next_state": "Completed", 
+    "state": "Pending"
+   }, 
+   {
+    "action": "Cancel", 
+    "allow_self_approval": 1, 
+    "allowed": "IT Services Accounts", 
+    "condition": null, 
+    "next_state": "Cancelled", 
+    "state": "Completed"
+   }
+  ], 
+  "workflow_name": "IT Contract Workflow", 
+  "workflow_state_field": "workflow_state"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow", 
+  "document_type": "IT Ticket", 
+  "is_active": 1, 
+  "modified": "2019-03-22 16:35:29.477368", 
+  "name": "IT Ticket Workflow", 
+  "override_status": 0, 
+  "send_email_alert": 0, 
+  "states": [
+   {
+    "allow_edit": "All", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Pending", 
+    "update_field": "status", 
+    "update_value": "Pending"
+   }, 
+   {
+    "allow_edit": "All", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "New", 
+    "update_field": "status", 
+    "update_value": "New"
+   }, 
+   {
+    "allow_edit": "All", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Hold", 
+    "update_field": "status", 
+    "update_value": "Hold"
+   }, 
+   {
+    "allow_edit": "All", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Scheduled", 
+    "update_field": "status", 
+    "update_value": "Scheduled"
+   }, 
+   {
+    "allow_edit": "All", 
+    "doc_status": "1", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Completed", 
+    "update_field": "status", 
+    "update_value": "Completed"
+   }, 
+   {
+    "allow_edit": "IT Services Manager", 
+    "doc_status": "2", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Cancelled", 
+    "update_field": "status", 
+    "update_value": "Cancelled"
+   }
+  ], 
+  "transitions": [
+   {
+    "action": "Set to Pending", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Pending", 
+    "state": "New"
+   }, 
+   {
+    "action": "Set to Hold", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Hold", 
+    "state": "New"
+   }, 
+   {
+    "action": "Set to Scheduled", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Scheduled", 
+    "state": "New"
+   }, 
+   {
+    "action": "Submit Ticket", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Completed", 
+    "state": "New"
+   }, 
+   {
+    "action": "Set to Hold", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Hold", 
+    "state": "Pending"
+   }, 
+   {
+    "action": "Set to Scheduled", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Scheduled", 
+    "state": "Pending"
+   }, 
+   {
+    "action": "Submit Ticket", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Completed", 
+    "state": "Pending"
+   },
+   {
+    "action": "Set to Pending", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Pending", 
+    "state": "Hold"
+   }, 
+   {
+    "action": "Set to Scheduled", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Scheduled", 
+    "state": "Hold"
+   }, 
+   {
+    "action": "Submit Ticket", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Hold", 
+    "state": "Hold"
+   },
+   {
+    "action": "Set to Pending", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Pending", 
+    "state": "Scheduled"
+   }, 
+   {
+    "action": "Set to Hold", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Hold", 
+    "state": "Scheduled"
+   }, 
+   {
+    "action": "Submit Ticket", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Completed", 
+    "state": "Scheduled"
+   },
+   {
+    "action": "Submit Ticket", 
+    "allow_self_approval": 1, 
+    "allowed": "All", 
+    "condition": null, 
+    "next_state": "Completed", 
+    "state": "Scheduled"
+   }
+  ], 
+  "workflow_name": "IT Ticket Workflow", 
+  "workflow_state_field": "status"
+ }
+]

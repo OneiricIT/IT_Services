@@ -1,0 +1,128 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-02-11 18:25:04.890790", 
+  "name": "Draft", 
+  "style": "Danger", 
+  "workflow_state_name": "Draft"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-02-11 17:55:52.432646", 
+  "name": "Submitted and Draft Invoice/s Created", 
+  "style": "Info", 
+  "workflow_state_name": "Submitted and Draft Invoice/s Created"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "question-sign", 
+  "modified": "2018-10-29 13:52:51.775090", 
+  "name": "Pending", 
+  "style": "Warning", 
+  "workflow_state_name": "Pending"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "ok-sign", 
+  "modified": "2018-10-29 13:52:51.783836", 
+  "name": "Approved", 
+  "style": "Success", 
+  "workflow_state_name": "Approved"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "remove", 
+  "modified": "2018-10-29 13:52:51.791839", 
+  "name": "Rejected", 
+  "style": "Danger", 
+  "workflow_state_name": "Rejected"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2018-10-30 18:55:05.452148", 
+  "name": "Completed", 
+  "style": "Success", 
+  "workflow_state_name": "Completed"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2018-10-31 11:42:49.179031", 
+  "name": "Cancelled", 
+  "style": "Info", 
+  "workflow_state_name": "Cancelled"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-02-25 13:21:15.734333", 
+  "name": "Create Draft Invoices", 
+  "style": "Info", 
+  "workflow_state_name": "Create Draft Invoices"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-02-25 13:23:37.722905", 
+  "name": "Invoices Sent", 
+  "style": "Primary", 
+  "workflow_state_name": "Invoices Sent"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-02-25 13:46:15.493930", 
+  "name": "Draft Invoices Created", 
+  "style": "Info", 
+  "workflow_state_name": "Draft Invoices Created"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-03-19 19:16:29.020443", 
+  "name": "New", 
+  "style": "Danger", 
+  "workflow_state_name": "New"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-03-19 19:16:54.587199", 
+  "name": "Hold", 
+  "style": "Primary", 
+  "workflow_state_name": "Hold"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-03-19 19:19:38.665514", 
+  "name": "Scheduled", 
+  "style": "Primary", 
+  "workflow_state_name": "Scheduled"
+ },
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2019-03-19 19:19:38.665514", 
+  "name": "Internal", 
+  "style": "Inverse", 
+  "workflow_state_name": "Internal"
+ }
+]
